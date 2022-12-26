@@ -1,0 +1,89 @@
+body{
+    /* background-color: #DEF5E5; */
+    background-color: #FFB3B3;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.encabezado{
+    text-align: center;
+    /* color: #171717; */
+    color: #fff;
+    font-size: 40px;
+    font-weight: 900;
+}
+
+.primeraCajita{
+    display: flex;
+    /* background-color: #DEF5E5; */
+    background-color: #FFB3B3;
+    justify-content: center;
+    align-items: center;
+    height: 550px;
+}
+
+.segundaCajita{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    /* background-color: #BCEAD5; */
+    background-color: #FFDBA4;
+    box-shadow: 20px 20px 15px 10px rgb(0,0,0,0.20);
+    border-radius: 40px;
+    width: 35%;
+    height: 90%;
+}
+
+.terceraCajita{
+    text-align: center;
+    /* background-color: #BCEAD5; */
+    background-color: #FFE9AE;
+    /* background-color: #9ED5C5; */
+    /* padding: 10px; */
+    border-radius: 45px;
+    width: 70%;
+    height: 60%;
+}
+
+.terceraCajita h2{
+    color: #171717;
+    font-size: 30px;
+}
+
+.terceraCajita input{
+    text-align: center;
+    background-color: #fff;
+    /* border: none; */
+    border: none;
+    width: 200px;
+    height: 25px;
+    border-radius: 10px;
+}
+
+.terceraCajita input:focus{
+    outline: none;
+}
+
+/*
+.terceraCajita input:hover{
+    border: none;
+}
+*/
+
+.terceraCajita button{
+    color: #171717;
+    background-color: #fff;
+    font-size: 15px;
+    font-weight: 700;
+    width: 80px;
+    height: 30px;
+    border-radius: 10px;
+    border: #171717;
+    box-shadow: 3px 3px 2px 2px rgb(0,0,0,0.25);
+}
+
+.terceraCajita button:hover{
+    /* background-color: #8EC3B0; */
+    background-color: #171717;
+    color: #fff;
+}
