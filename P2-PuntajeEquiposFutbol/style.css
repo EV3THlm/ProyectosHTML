@@ -1,13 +1,14 @@
 body{
     /* background-color: #DEF5E5; */
-    background-color: #FFB3B3;
+    /* background-color: #FFB3B3; */
+    background-color: #C1EFFF;
     font-family: 'Times New Roman', Times, serif;
 }
 
 .encabezado{
     text-align: center;
     /* color: #171717; */
-    color: #fff;
+    color: #171717;
     font-size: 40px;
     font-weight: 900;
 }
@@ -15,7 +16,8 @@ body{
 .primeraCajita{
     display: flex;
     /* background-color: #DEF5E5; */
-    background-color: #FFB3B3;
+    /* background-color: #FFB3B3; */
+    background-color: #C1EFFF;
     justify-content: center;
     align-items: center;
     height: 550px;
