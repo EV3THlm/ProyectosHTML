@@ -1,0 +1,66 @@
+body{
+    font-family: sans-serif;
+    background-color: #c5d5cb;
+}
+
+h1{
+   /* color: #171117;
+    background-color: wheat; */
+    font-size: 60px;
+    font-weight: 900;
+    text-align: center;
+    width: 100%;
+    height: 100px;
+}
+
+.primeraCajita{
+    display: flex;
+    background-color: #c5d5cb;
+    justify-content: center;
+    /* align-items: center; */
+    align-items: center;
+    height: 500px;
+   /* border: 5px solid white; */
+}
+
+.segundaCajita{
+    text-align: center;
+    /* background-color: #173e43; */
+    background-color: #171717;
+    width: 35%;
+    height: 100%;
+    border-radius: 40px;
+    box-shadow: 15px 15px 10px 5px rgba(0, 0, 0, 0.30);
+   /* box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px; */
+}
+
+.segundaCajita h2{
+    color: #ffff;
+    font-size: 25px;
+    font-weight: 900;
+}
+
+.segundaCajita h2 input{
+    width: 200px;
+    height: 30px;
+    border-radius: 10px;
+}
+
+.segundaCajita input{
+    background-color: #c5d5cb;
+}
+
+.segundaCajita button{
+    color: black;
+    background-color: #c5d5cb;
+    width: 150px;
+    height: 40px;
+    border-radius: 10px;
+}
+
+.segundaCajita h3{
+    color: #fff;
+    font-weight: 900;
+    font-size: 20px;    
+}
+
